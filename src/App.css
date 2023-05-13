@@ -1,0 +1,13 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.producttitle{
+  text-align: center !important;
+  margin: auto;
+  margin-top: 10% ;
+  padding:100px;
+}
+body{
+  overflow-x: hidden;
+}

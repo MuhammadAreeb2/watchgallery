@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .media {
+          align-items: center !important;
+      }
+  }
+  body{
+    overflow-x: hidden;
+    /* z-index: 999; */
+  }
