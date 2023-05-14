@@ -21,13 +21,18 @@ function About() {
           <Modal.Body>
             <img src={img3} className="w-100" alt="" />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptatibus veniam error. Deserunt, ab repellat optio ea dolore at aliquam saepe libero labore! Suscipit cum provident eius ab. Ea, nihil.
+              Welcome to Watch Gallery official website,
+              the premium luxury brand of watches in Pakistan.  Watch Gallery  is a global
+              watch brand with over 4 decades of experience in watchmaking industry and a family of 10 million happy customers.
+              Only at our store, shoppers can find  Watch Gallery  watches original price in Pakistan. We encourage shoppers to buy luxury watches for men from the best online watch store at affordable rates. Latest  watches price in Pakistan 2020 are affordable considering the quality and luxury gift box that comes with the package.
+              You can buy  watches online and pay cash on delivery anywhere in karachi, lahore, rawalpindi, islamabad, faisalabad, peshawar, hyderabad, sialkot, multan and across country.
+
             </p>
           </Modal.Body>
 
           <Modal.Footer>
-            <Button variant="secondary">Close</Button>
-            <Button variant="primary">Save changes</Button>
+
+            <Button variant="primary">Have a Good Day</Button>
           </Modal.Footer>
         </Modal.Dialog>
       </div>

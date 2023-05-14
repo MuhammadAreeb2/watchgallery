@@ -1,11 +1,10 @@
 
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import { Button } from "@mui/material"
 
 import Navbar from "./homeComponent/navbar"
 import React, { useEffect, useState } from 'react'
 
-// import { ToastContainer, toast } from 'react-toastify';
 const About = () => {
 
 
@@ -26,8 +25,8 @@ const About = () => {
     }
 
     let [email, setemail] = useState();
-    let [pass, setpass] = useState()
-    let [btn, setbtn] = useState(true)
+    // let [pass, setpass] = useState()
+    // let [btn, setbtn] = useState(true)
     useEffect(() => {
         console.log("1sttym state")
     }, [])

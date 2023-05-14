@@ -5,16 +5,15 @@ import CardHeader from '@mui/material/CardHeader';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
-import Collapse from '@mui/material/Collapse';
 import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import { red } from '@mui/material/colors';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import product1 from "./product(1).jpg"
+import "./footer.css"
 
 import React, { useState } from 'react'
 const ExpandMore = styled((props) => {
@@ -48,7 +47,7 @@ export default function Cardz1() {
     }
   }
   return (
-    <Card sx={{ maxWidth: 350 }} >
+    <Card sx={{ maxWidth: 350 }}  className='cardz'>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">

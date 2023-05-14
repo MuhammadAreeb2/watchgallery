@@ -1,10 +1,10 @@
 
 import React from "react";
 import { Formik } from "formik";
-
 import Navbar from "./homeComponent/navbar"
 import { Container, Row } from "react-bootstrap";
 import { Button } from "@mui/material"
+// import auth from "../components/homeComponent/firebase"
 const FormikForm = () => {
   return (
     <>
@@ -24,11 +24,22 @@ const FormikForm = () => {
             }
             return errors;
           }}
-          onSubmit={(values, { setSubmitting }) => {
+          onSubmit={ (values, { setSubmitting }) => {
             setTimeout(() => {
               alert(JSON.stringify(values, null, 2));
               setSubmitting(false);
             }, 400);
+
+
+
+            // try{
+
+            //   const user = await createUserWithEmailAndPassword(auth,value.email,value.password)
+            //   console.log(user.user.uid)
+
+            // }catch(e){
+            //   console.log(e)
+            // }
           }}
         >
           {({
